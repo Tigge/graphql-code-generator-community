@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 16.0.0"
+    "node": "^20.19.0 || >=22.12.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -47,14 +47,14 @@
     }
   },
   "dependencies": {
-    "@graphql-codegen/plugin-helpers": "^7.0.1",
-    "@graphql-codegen/visitor-plugin-common": "^7.1.1",
+    "@graphql-codegen/plugin-helpers": "^7.4.2",
+    "@graphql-codegen/visitor-plugin-common": "^7.5.0",
     "auto-bind": "~4.0.0",
     "change-case-all": "1.0.15",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@reduxjs/toolkit": "2.13.0",
+    "@reduxjs/toolkit": "2.14.0",
     "@rtk-query/graphql-request-base-query": "2.3.2",
     "graphql-request": "^6.0.0"
   },
